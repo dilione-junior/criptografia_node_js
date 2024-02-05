@@ -110,5 +110,52 @@
     font-family: var(--fonte-conteudo);
     font-size: 35px;
     font-weight:bold;
-    text-shadow: 0.063rem 0.0625rem 0.125rem var(--cor-secundaria);
+    text-shadow: 2px 0.0625rem 0.125rem var(--cor-secundaria);
+}
+
+
+@media(max-width:1200px){
+
+    #fundo_pagina{
+        background-color: var(--cor-secundaria);
+        width: auto;
+    }
+    .cabecalho{
+        padding: 25px 35px 25px 35px; 
+        background-color: var(--cor-secundaria);
+        justify-content: center;
+    }
+    .cabecalho__menu{
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+    }
+    .cabecalho__menu__link{
+        flex-direction: column;
+        padding: 0.188rem 0.438rem;
+    }
+    .titulo{
+        padding: 25px 10px 25px 10px;
+    }
+    .interacao{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px 0px 10px 0px;
+    }
+    .interacao_dev{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 25px 20px 25px 20px;
+    }
+    #lista{
+        text-align: left;
+    }
+    .imagem{
+        width: 300px;
+    }
+    .rodape{
+        padding: 25px 35px 25px 35px;
+    }
 }
