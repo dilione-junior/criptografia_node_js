@@ -4,6 +4,7 @@ function executarCriptografia() {
 
     function mostrarResultado(frase) {
         alert(frase);
+        alert("Clique no botão novamente para criptografar ou continue navegando,Obrigado😃🎈🎉");
     }
 
     function cifraMensagem(mensagem, movimentos) {
