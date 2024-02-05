@@ -137,6 +137,10 @@
     .titulo{
         padding: 25px 10px 25px 10px;
     }
+    .subtitulo{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .interacao{
         flex-direction: column;
         align-items: center;
