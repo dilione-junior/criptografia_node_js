@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Black+Ops+One&family=Bruno+Ace&family=Gabarito&family=Kanit:wght@300;400&family=Krona+One&family=Lilita+One&family=Metal&family=Nova+Square&family=Odor+Mean+Chey&family=Pacifico&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400&display=swap');
+
+:root {
+    --cor-primaria: black;
+    --cor-secundaria: whitesmoke;
+    --cor-terciaria: rgb(19, 46, 165);
+    --fonte-conteudo: 'Black Ops One', system-ui;
+    --fonte-conteudo-secundario: 'Graduate', serif;
+    --fonte-conteudo-texto: 'Prompt', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 45px 35px 45px;
+    background-image: url(../imagens/cript.jpg);
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 5rem;
+    justify-content: left;
+}
+
+.cabecalho__menu__link{
+    font-family: var(--fonte-conteudo);
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: 0.150rem solid var(--cor-secundaria);
+    border-radius: 0.625rem;
+    color:var(--cor-terciaria);
+    padding: 0.625rem 0.625rem;
+    text-decoration: none;
+    text-shadow: 10px 0.0625rem 50px var(--cor-primaria);
+    background-color: var(--cor-primaria);
+}
+
+.cabecalho__menu__link:hover {
+    border: 0.150rem solid var(--cor-secundaria);
+    border-radius: 0.625rem;
+    color: var(--cor-secundaria);
+    text-shadow: 0.063rem 0.0625rem 0.125rem var(--cor-terciaria);
+}
+
+.fundo_principal{
+    background-color: var(--cor-secundaria);
+}
+
+.titulo {
+    color : var(--cor-primaria);
+    font-family: var(--fonte-conteudo);
+    align-items: center;
+    text-align: center;
+    font-size: 2.25rem;
+    padding: 50px 10px 50px 10px;
+}
+
+.interacao{
+    display: flex;
+    text-align: center;
+    padding: 10px 50px 20px 190px;
+    gap: 20px;
+}
+
+.interacao_dev{
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+    padding: 20px 25px 20px 25px;
+}
+
+#destaque{
+    font-size: 25px;
+}
+
+.subtitulo {
+    color : var(--cor-primaria);
+    font-family: var(--fonte-conteudo-secundario);
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.botao{
+    padding: 10px 15px 10px 15px;
+    height: 40px;
+}
+
+.ilustracao{
+    align-items: center;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+.imagem{
+    border-radius: 30px;
+}
+
+.rodape{
+    background-image: url(../imagens/cript.jpg);
+    color: var(--cor-primaria);
+    padding: 35px 45px 35px 45px;
+    text-align: center;
+    font-family: var(--fonte-conteudo);
+    font-size: 35px;
+    font-weight:bold;
+    text-shadow: 0.063rem 0.0625rem 0.125rem var(--cor-secundaria);
+}
