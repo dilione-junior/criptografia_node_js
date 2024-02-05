@@ -24,7 +24,7 @@
 
 .cabecalho__menu{
     display: flex;
-    gap: 25px;
+    gap: 30px;
     justify-content: left;
 }
 
