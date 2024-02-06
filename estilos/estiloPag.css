@@ -42,10 +42,10 @@
 }
 
 .cabecalho__menu__link:hover {
-    border: 0.150rem solid var(--cor-secundaria);
+    border: 0.150rem solid var(--cor-primaria);
     border-radius: 0.625rem;
     color: var(--cor-terciaria);
-    text-shadow: 0.063rem 0.0625rem 0.125rem var(--cor-terciaria);
+    text-shadow: 2px 2px 2px var(--cor-primaria);
 }
 
 .fundo_principal{
