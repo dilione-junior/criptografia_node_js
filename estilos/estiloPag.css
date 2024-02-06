@@ -44,7 +44,7 @@
 .cabecalho__menu__link:hover {
     border: 0.150rem solid var(--cor-secundaria);
     border-radius: 0.625rem;
-    color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
     text-shadow: 0.063rem 0.0625rem 0.125rem var(--cor-terciaria);
 }
 
