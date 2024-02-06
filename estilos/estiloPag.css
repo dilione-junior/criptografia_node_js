@@ -37,7 +37,7 @@
     color:var(--cor-primaria);
     padding: 0.625rem 0.625rem;
     text-decoration: none;
-    text-shadow: 2px 0.0625rem 2px var(--cor-primaria);
+    text-shadow: 2px 0.0625rem 50px var(--cor-primaria);
     background-color: var(--cor-secundaria);
 }
 
